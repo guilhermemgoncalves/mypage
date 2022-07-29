@@ -1,0 +1,257 @@
+
+/* Reset CSS */
+
+
+
+html {
+    box-sizing: border-box;
+    font-size: 18px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+    scroll-behavior: smooth;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+  
+/* Final do Reset */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;700&display=swap');
+
+/*Configurações gerais*/
+html{
+  background-color: black;
+  
+}
+body{
+  min-width: 320px;   
+  
+  background: rgb(151, 151, 155);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font: 400 300;    
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+    
+    
+  }
+  
+  header, footer, main{
+    
+    color: aliceblue
+    
+  }
+  
+  li{
+    list-style: none;
+    
+  }
+  
+  /*Fim das configurações gerais*/
+
+  
+  
+  
+  /* Configurando o header*/
+
+  
+  header>nav{  
+    
+    height: 5em; 
+    /* background-color: rgb(236, 236, 243);    */
+    background-color: rgb(10, 10, 100);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    position: fixed;
+    top: 0;     
+    
+  }
+  
+  .icon{
+    background-color: rgb(10, 10, 10);    
+        margin-left: 1em;
+        color: #4488ff;     
+        font-size: 1.2em;  
+
+      }
+      .icon-text {
+        color: azure;
+}
+
+.horizontal-anchors{
+  display: flex;
+  flex-direction: row;
+}
+header ul{
+  margin-right :2em;
+}
+
+header a{
+  
+  
+  border-bottom: #4488dd solid 2px;  
+  padding: 0.5em;  
+  text-decoration: none;
+  color: azure;
+}
+
+
+header li{
+  margin: 0 0.8em;
+  width: 100px;
+  
+  
+}
+
+
+
+
+
+/*Configurando o Main*/
+
+main{
+  
+  width: 100%;    
+  margin: 0 auto;
+  height: 100%;
+  background-image: url('../img/circle-scatter-haikei\ \(1\).svg');
+  background-repeat: repeat-y;
+  
+  ;
+  
+}
+section {
+  min-height: 900px;
+  background-color: rgba(5, 5, 5, 1);
+  height: 100vh;
+  padding: 2em;
+  /* border: 3px solid green; */
+  
+}
+
+/* Configurando a seção principal */
+
+#Home figure{
+  width: 320px;
+  height: 320px;
+  border-radius: 100%;
+  
+  
+  background-image: url(https://images.pexels.com/photos/247676/pexels-photo-247676.jpeg?cs=srgb&dl=pexels-pixabay-247676.jpg&fm=jpg);
+  
+  background-size: cover;
+  background-position: center;
+  
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.profile-img{
+  width: 200px;
+  height: 200px;  
+  border-radius: 50%;
+  border: 0.4em solid rgba(0, 0, 0, 0);
+  opacity: unset;
+  
+}
+
+#Home{
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: rgba(15, 15, 20, .60);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;  
+
+}
+
+#Home article{
+  width: 900px;
+  background: blueviolet;
+}
+
+#Home h1{
+  font-size: 2.8em;
+  color: aliceblue;
+}
+
+#Home p{
+  margin: 0.8em 0;
+  font-size: 1.2em;
+    
+}
+
+#Home strong{
+
+  color: #4488dd;
+}
+
+#Sobre{
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-around; 
+  align-items: center;
+  
+  background-color: rgba(30, 30, 30, .85);
+}
+#Sobre img{
+  background-color: crimson;
+  width: 100px;
+  height: 100px;
+}
+
+#Sobre p{
+  font-size: 3em;
+}
+
+.tools-container{  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100vw;
+  
+  
+}
+.tools{
+  background: burlywood;
+  width: 400px;
+  height: 500px;
+  border-radius: 7px ;
+  
+}
+
+.tools img{
+  
+  
+
+
+}
+
+
