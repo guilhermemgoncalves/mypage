@@ -161,7 +161,7 @@ main{
   
 }
 section {
-  min-height: 900px;
+  min-height: 700px;
   background-color: rgba(5, 5, 5, 1);  
   padding: 2em;
   /* border: 3px solid green; */
@@ -199,6 +199,7 @@ section {
 }
 
 #Home{
+  height: 900px;
   justify-content: space-around;
   flex-wrap: wrap;
   background-color: rgba(15, 15, 20, .60);
@@ -232,7 +233,7 @@ section {
 #Sobre{
   display: flex;
   flex-direction: column; 
-  justify-content: space-around; 
+  
   align-items: center;
   
   background-color: rgba(30, 30, 30, .85);
@@ -243,8 +244,9 @@ section {
   height: 100px;
 }
 
-#Sobre p{
+#Sobre>p{
   font-size: 2.5em;
+  margin: 50px;
 }
 
 .tools-container{  
@@ -256,24 +258,31 @@ section {
   
   
 }
+
+.tools>p{
+  color: #4488dd;
+  font-size: 1.3em;
+}
+
+.tools:hover{
+
+  color: antiquewhite;
+  height: 500px;
+  
+}
 .tools{
   background: rgba(146, 156, 156, 0.315);
   width: 350px;
-  height: 500px;
   border-radius: 7px ;
   color: black;
-
+  height: 200px;
+  
   margin: 20px;
   
   display: flex;
   flex-direction: column;  
-  align-items: center;
-
+  align-items: center; 
   
-  
-}
-.tools>p{
-  color: #4488dd;
 }
 
 .tools>img{  
