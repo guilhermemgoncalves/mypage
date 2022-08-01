@@ -20,8 +20,8 @@
             </div>
             <ul class="horizontal-anchors">
                 <li><a href="#Home">
-                    <span>Home</span>
-                        
+                        <span>Home</span>
+
                     </a>
                 </li>
                 <li><a href="#Sobre">Sobre</a></li>
@@ -48,40 +48,53 @@
         </section>
         <section id="Sobre">
 
-            <p>Técnologias que estudo:</p>
+            <div class="section-title">
+                <p>Técnologias que estudo:</p>
+            </div>
             <div class="tools-container">
 
-                <div id="frontend-tools" class="tools">
-                    <p>Front-End</p>
-                    <img src="assets/icons/frontendblue.png" alt="">
-                    <ul>
+                <div id="frontend-tools" class="tool-card">
+                    <p class="tool-title">Front-End</p>
+                    <img src="assets/icons/frontendblue.png" alt="" class="tool-img">
+                    <ul id="FrontEnd-List" class="tool-list" hidden>
                         <hr>
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>JavaScript</li>
-                        <li>Angular</li>
+                        <li><img src="assets/icons/languageIcons/angular_icon_213572.ico" alt="" class="tool-icons"> Angular</li>
                     </ul>
                 </div>
-                <div id="backend-tools" class="tools">
-                    <p>Back-End </p>
-                    <img src="assets/icons/backendblue.png" alt="">
-                    <ul>
+                <div id="backend-tools" class="tool-card">
+                    <p class="tool-title">Back-End </p>
+                    <img src="assets/icons/backendblue.png" alt="" class="tool-img">
+                    <ul id="BackEnd-list" class="tool-list" hidden>
                         <hr>
                         <li>Java</li>
                         <li>NodeJs</li>
                         <li>C#</li>
                     </ul>
                 </div>
-                <div id="database-tools" class="tools">
-                    <p>Banco de dados</p>
-                    <img src="assets/icons/databaseblue.png" alt="">
-                    <ul>
+                <div id="database-tools" class="tool-card">
+                    <p class="tool-title">Banco de dados</p>
+                    <img src="assets/icons/databaseblue.png" alt="" class="tool-img">
+                    <ul id="dbList" class="tool-list" hidden>
                         <hr>
                         <li>MySQL</li>
                         <li>MongoDB</li>
                     </ul>
                 </div>
             </div>
+            <div class="plus-tools">
+                <p>Outras técnologias:</p>  
+                <img src="assets/icons/languageIcons/powerapp-2020-icon-1024x1024.png" alt="">
+                                        
+                 
+                    
+                
+
+            </div>
+
+
         </section>
 
         <section id="Projetos">
@@ -98,7 +111,11 @@
     <footer>
         <a href="https://www.flaticon.com/free-icons/file-upload" title="file-upload icons">File-upload icons created by
             DinosoftLabs - Flaticon</a>
+
+            https://icon-icons.com/download/157867/ICO/48/
     </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
