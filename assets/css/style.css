@@ -92,7 +92,7 @@ font-size: 20px;
     
     height: 5em; 
     /* background-color: rgb(236, 236, 243);    */
-    background-color: rgb(10, 10, 10);
+    background-color: rgba(10, 10, 10, 0.95);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -161,9 +161,10 @@ main{
   
 }
 section {
-  min-height: 700px;
+  min-height: 100vh;
   background-color: rgba(5, 5, 5, 1);  
   padding: 2em;
+  margin-top: 2.5em;
   /* border: 3px solid green; */
   
 }
@@ -198,11 +199,10 @@ section {
   
 }
 
-#Home{
-  height: 900px;
+#Home{  
   justify-content: space-around;
   flex-wrap: wrap;
-  background-color: rgba(15, 15, 20, .60);
+  background-color: rgba(0, 0, 10, .60);
   display: flex;
   justify-content: space-around;
   align-items: center;  
@@ -235,6 +235,7 @@ section {
 #Sobre{
   display: flex;
   flex-direction: column; 
+  justify-content: space-around;
   
   align-items: center;
   
@@ -254,7 +255,8 @@ section {
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
-  width: 100%;  
+  width: 90%;  
+  min-height: 500px;
   
 }
 .tool-img{
@@ -291,8 +293,9 @@ section {
   
 }
 .tool-icons{
-  width: 15px;
-  height: 15px;
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
 }
 
 .tool-card>img{  
@@ -302,8 +305,8 @@ section {
   
 }
 .tool-card li{
-
-  margin: 7px;
+  display: flex;  
+  margin: 15px;
   color: aliceblue;
 }
 
@@ -316,12 +319,12 @@ hr{
 /* Outras Ferramentas */
 .plus-tools
 {
- width: 100%;
+ width: 83%;
  height: auto;
  background: rgba(146, 156, 156, 0.315);
  border-radius: 7px;
- margin-left: 2em;
- padding: 7px;
+ margin: 3em;
+ padding: 10px;
  
 }
 .plus-tools p{
@@ -335,5 +338,33 @@ hr{
 .plus-tools img{
 
   width: 50px;
+  margin: 10px;
   
+
 }
+
+
+
+/* Contatos*/
+#Contatos{
+  background-color: #4488ff;
+  height: 200px;
+  padding: 35px;
+}
+
+footer ul{
+  margin: 30px;
+  display: flex;
+  justify-content: space-around;  
+  width: 100%;
+}
+
+footer li{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+

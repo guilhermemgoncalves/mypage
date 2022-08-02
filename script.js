@@ -56,7 +56,7 @@ function expandCardFe() {
     document.getElementById("frontend-tools").style.transition = "height 0.2s ease 0s";
     
     document.querySelector("#FrontEnd-List").removeAttribute("hidden");
-    document.getElementById("FrontEnd-List").style.animation = "appear 1s ease 1s 1 normal;"
+   
 
   } else {
     document.querySelector("#FrontEnd-List").setAttribute("hidden", true);
