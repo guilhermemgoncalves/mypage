@@ -40,7 +40,7 @@ function expandCardDb() {
 function expandCardBe() {
   if (document.querySelector("#BackEnd-list").hasAttribute("hidden")) {
     document.getElementById("backend-tools").style.height = "350px";
-    document.getElementById("backend-tools").style.transition = "height 0.2s ease 0s";
+    document.getElementById("backend-tools").style.transition = "height 0.2zs ease 0s";
     document.querySelector("#BackEnd-list").removeAttribute("hidden");
 
 

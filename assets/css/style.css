@@ -27,6 +27,9 @@ html {
     max-width: 100%;
     height: auto;
   }
+  a{
+    text-decoration: none
+  }
 
 
   
@@ -162,7 +165,7 @@ main{
 }
 section {
   min-height: 100vh;
-  background-color: rgba(5, 5, 5, 1);  
+  
   padding: 2em;
   margin-top: 2.5em;
   /* border: 3px solid green; */
@@ -272,7 +275,7 @@ section {
 }
 
 .tool-card:hover{
-
+  transition: ease-in 0.1s;
   background : rgba(146, 156, 156, 0.40);
   cursor: pointer;
     
@@ -340,15 +343,14 @@ hr{
   width: 50px;
   margin: 10px;
   
-
 }
 
 
 
 /* Contatos*/
 #Contatos{
-  background-color: #4488ff;
-  height: 200px;
+  background-color: rgba(68, 136, 255, 0.4);
+  height: 100%;
   padding: 35px;
 }
 
@@ -364,7 +366,18 @@ footer li{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  filter: contrast(1.8) brightness(1.5) grayscale(1);
+  color: aliceblue;
+  font-size: 1.3em;
 
 }
 
+footer li:hover{
+  transition: 1s;
+  animation: 1s;
+  filter: contrast(1) brightness(1) grayscale(0);
+}
 
+.footer-title{
+  font-size: 1.8em;
+}
